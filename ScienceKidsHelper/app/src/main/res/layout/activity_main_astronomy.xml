@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Astronomy"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/astronomy_elementary_button"
+        android:text="Elementary School"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/astronomy_middle_school_button"
+        android:text="Middle School"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/astronomy_high_school_button"
+        android:text="High School"
+        android:textSize="20sp"/>
+
+
+    <!--
+    Add what you were last doing here!!!
+
+    Add what you should do(Optional)
+
+    Add how close you are to being done with something-->
+
+</LinearLayout>
